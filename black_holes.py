@@ -70,10 +70,10 @@ df=pd.DataFrame(
 )
 
 ax=plt.gca()
-df.plot(kind='line',x='okres_orbity',y='masa1',ax=ax)
-df.plot(kind='scatter',x='okres_orbity',y='masa2',color='red',ax=ax)
-df.plot(kind='line',x='okres_orbity',y='masa3',color='green',ax=ax)
-df.plot(kind='line',x='okres_orbity',y='masa4',color='orange',ax=ax)
+df.plot(kind='line',x='okres_orbity',y='mass1',ax=ax)
+df.plot(kind='scatter',x='okres_orbity',y='mass2',color='red',ax=ax)
+df.plot(kind='line',x='okres_orbity',y='mass3',color='green',ax=ax)
+df.plot(kind='line',x='okres_orbity',y='mass4',color='orange',ax=ax)
 plt.grid()
 # plt.xscale("log")
 
